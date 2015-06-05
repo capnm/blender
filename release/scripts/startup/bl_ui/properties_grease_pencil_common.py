@@ -65,6 +65,8 @@ class GreasePencilDrawingToolsPanel:
 
         row = col.row(align=True)
         row.prop(context.tool_settings, "use_grease_pencil_sessions", text="Continuous Drawing")
+        row = col.row(align=True)
+        row.prop(context.tool_settings, "use_pressure", text="Tablet Pen Pressure")
 
         if context.space_data.type in {'VIEW_3D', 'CLIP_EDITOR'}:
             col.separator()

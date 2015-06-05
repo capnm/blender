@@ -1913,6 +1913,7 @@ typedef enum ImagePaintMode {
 
 /* toolsettings->gpencil_flags */
 #define GP_TOOL_FLAG_PAINTSESSIONS_ON	(1<<0)
+#define GP_TOOL_FLAG_PRESSURE_ON	(1<<1)
 
 /* toolsettings->gpencil_src */
 typedef enum eGPencil_Source_3D {

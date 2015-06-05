@@ -60,6 +60,8 @@ typedef struct tGPspoint {
 
 /* Check if 'sketching sessions' are enabled */
 #define GPENCIL_SKETCH_SESSIONS_ON(scene) ((scene)->toolsettings->gpencil_flags & GP_TOOL_FLAG_PAINTSESSIONS_ON)
+/* Check if 'tablet pen pressure' is enabled */
+#define GPENCIL_PRESSURE_ON(scene) ((scene)->toolsettings->gpencil_flags & GP_TOOL_FLAG_PRESSURE_ON)
 
 /* ----------- Grease Pencil Tools/Context ------------- */
 
